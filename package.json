@@ -32,6 +32,6 @@
     "node": ">=0.3.0"
   },
   "publishConfig": {
-    "registry": "http://unpm.jpl.nasa.gov"
+    "registry": "https://verdaccio.jws.jpl.nasa.gov"
   }
 }
