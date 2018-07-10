@@ -1,5 +1,5 @@
 {
-  "name": "adm-zip",
+  "name": "@jpl/adm-zip",
   "version": "0.4.12",
   "description": "Javascript implementation of zip for nodejs with support for electron original-fs. Allows user to create or extract zip files both in memory or to/from disk",
   "keywords": [
@@ -12,7 +12,7 @@
   "author": "Nasca Iacob <sy@another-d-mention.ro> (https://github.com/cthackers)",
   "bugs": {
     "email": "sy@another-d-mention.ro",
-    "url": "https://github.com/cthackers/adm-zip/issues"
+    "url": "https://github.com/vona/adm-zip/issues"
   },
   "license": "MIT",
   "files": [
@@ -26,9 +26,12 @@
   "main": "adm-zip.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cthackers/adm-zip.git"
+    "url": "https://github.com/vona/adm-zip.git"
   },
   "engines": {
     "node": ">=0.3.0"
+  },
+  "publishConfig": {
+    "registry": "http://unpm.jpl.nasa.gov"
   }
 }
